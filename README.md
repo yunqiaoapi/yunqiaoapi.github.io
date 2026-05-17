@@ -1,5 +1,5 @@
 
-# <font style="color:rgb(31, 35, 40);">Claude Code Windows版使用教程</font>
+# <font style="color:rgb(31, 35, 40);">Claude Code Windows版使用教程，小白都可以操作，找了好久！不会可以免费手把手教安装</font>
 ## <font style="color:rgb(31, 35, 40);">系统要求</font>
 + <font style="color:rgb(31, 35, 40);">✅</font>**<font style="color:rgb(31, 35, 40);">操作系统</font>**<font style="color:rgb(31, 35, 40);">：Windows 10 或 Windows 11（</font>**<font style="color:rgb(31, 35, 40);">必须是 64 位</font>**<font style="color:rgb(31, 35, 40);">）</font>
 + <font style="color:rgb(31, 35, 40);">✅</font>**<font style="color:rgb(31, 35, 40);">内存</font>**<font style="color:rgb(31, 35, 40);">：建议4GB以上</font>
