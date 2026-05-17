@@ -1,5 +1,4 @@
 
-
 # <font style="color:rgb(31, 35, 40);">Claude Code Windows版使用教程</font>
 ## <font style="color:rgb(31, 35, 40);">系统要求</font>
 + <font style="color:rgb(31, 35, 40);">✅</font>**<font style="color:rgb(31, 35, 40);">操作系统</font>**<font style="color:rgb(31, 35, 40);">：Windows 10 或 Windows 11（</font>**<font style="color:rgb(31, 35, 40);">必须是 64 位</font>**<font style="color:rgb(31, 35, 40);">）</font>
@@ -23,7 +22,7 @@
 
 
 #### <font style="color:rgb(31, 35, 40);">1.2 安装Git</font>
-1. <font style="color:rgb(31, 35, 40);">上部下载的安装文件（如</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">Git-2.51.2-64-bit.exe</font>`<font style="color:rgb(31, 35, 40);">）</font>
+1. <font style="color:rgb(31, 35, 40);">点击下载的安装文件（如</font>Git-2.51.2-64-bit.exe<font style="color:rgb(31, 35, 40);">）</font>
 2. **<font style="color:rgb(31, 35, 40);">全程使用默认选项</font>**<font style="color:rgb(31, 35, 40);">，一路点击“Next”</font>
 3. <font style="color:rgb(31, 35, 40);">确保在“调整您的PATH环境”步骤中选择：</font>
     - <font style="color:rgb(31, 35, 40);">✅</font><font style="color:rgb(31, 35, 40);"> </font>**<font style="color:rgb(31, 35, 40);">"Git from the command line and also from 3rd-party software"</font>**<font style="color:rgb(31, 35, 40);">（默认选项）</font>
@@ -31,20 +30,20 @@
 5. <font style="color:rgb(31, 35, 40);">完成后点击“完成”</font>
 
 #### <font style="color:rgb(31, 35, 40);">1.3 验证Git安装</font>
-1. <font style="color:rgb(31, 35, 40);">按</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">Win + R</font>`
-2. <font style="color:rgb(31, 35, 40);">输入</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">cmd</font>`<font style="color:rgb(31, 35, 40);">，按回车</font>
+1. <font style="color:rgb(31, 35, 40);">按</font>Win + R
+2. <font style="color:rgb(31, 35, 40);">输入</font>cmd<font style="color:rgb(31, 35, 40);">，按回车</font>
 3. <font style="color:rgb(31, 35, 40);">在命令提示符中输入</font>
 
 <font style="color:rgb(31, 35, 40);">  git --version</font>
 
-<font style="color:rgb(31, 35, 40);">✅</font><font style="color:rgb(31, 35, 40);"> 如果显示类似</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">git version 2.51.2.windows.1</font>`<font style="color:rgb(31, 35, 40);">，说明安装成功。</font>
+<font style="color:rgb(31, 35, 40);">✅</font><font style="color:rgb(31, 35, 40);"> 如果显示类似</font>git version 2.51.2.windows.1<font style="color:rgb(31, 35, 40);">，说明安装成功。</font>
 
 <font style="color:rgb(31, 35, 40);"></font>
 
 ### <font style="color:rgb(31, 35, 40);">第二步：安装Claude代码</font>
 #### <font style="color:rgb(31, 35, 40);">2.1 以管理员身份打开PowerShell</font>
-1. `<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">Win</font>`<font style="color:rgb(31, 35, 40);">+Q </font>
-2. <font style="color:rgb(31, 35, 40);">输入</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">powershell</font>`
+1. Win<font style="color:rgb(31, 35, 40);">+Q </font>
+2. <font style="color:rgb(31, 35, 40);">输入</font>powershell
 3. **<font style="color:rgb(31, 35, 40);">右键</font>**<font style="color:rgb(31, 35, 40);">单击“Windows PowerShell”</font>
 4. <font style="color:rgb(31, 35, 40);">选择</font>**<font style="color:rgb(31, 35, 40);">“以管理员身份运行”</font>**
 
@@ -65,16 +64,16 @@ Location: C:\Users\你的用户名\.local\bin\claude.exe
 
 
 ### <font style="color:rgb(31, 35, 40);">第三步：配置环境变量（添加PATH）</font>
-<font style="color:rgb(31, 35, 40);">安装完成后需要将Claude添加到系统PATH，这样才能在任何位置运行</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">claude</font>`<font style="color:rgb(31, 35, 40);">命令。</font>
+<font style="color:rgb(31, 35, 40);">安装完成后需要将Claude添加到系统PATH，这样才能在任何位置运行</font>claude<font style="color:rgb(31, 35, 40);">命令。</font>
 
 #### <font style="color:rgb(31, 35, 40);">方法一：图形界面操作（新手）</font>
-1. <font style="color:rgb(31, 35, 40);">按</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">Win + R</font>`<font style="color:rgb(31, 35, 40);">，输入</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">sysdm.cpl</font>`<font style="color:rgb(31, 35, 40);">，按回车</font>
+1. <font style="color:rgb(31, 35, 40);">按</font>Win + R<font style="color:rgb(31, 35, 40);">，输入</font>sysdm.cpl<font style="color:rgb(31, 35, 40);">，按回车</font>
 2. <font style="color:rgb(31, 35, 40);">点击</font>**<font style="color:rgb(31, 35, 40);">“高级”</font>**<font style="color:rgb(31, 35, 40);">标签</font>
 3. <font style="color:rgb(31, 35, 40);">点击</font>**<font style="color:rgb(31, 35, 40);">“环境变量”</font>**<font style="color:rgb(31, 35, 40);">按钮</font>
-4. <font style="color:rgb(31, 35, 40);">在</font>**<font style="color:rgb(31, 35, 40);">“用户变量”</font>**<font style="color:rgb(31, 35, 40);">区域（窗口上半部分），找到并左边</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">Path</font>`
+4. <font style="color:rgb(31, 35, 40);">在</font>**<font style="color:rgb(31, 35, 40);">“用户变量”</font>**<font style="color:rgb(31, 35, 40);">区域（窗口上半部分），找到并左边</font>Path
 5. <font style="color:rgb(31, 35, 40);">点击</font>**<font style="color:rgb(31, 35, 40);">“新建”</font>**<font style="color:rgb(31, 35, 40);">按钮</font>
-6. <font style="color:rgb(31, 35, 40);">输入：</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">C:\Users\你的用户名\.local\bin</font>`
-    - <font style="color:rgb(31, 35, 40);">将</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">你的用户名</font>`<font style="color:rgb(31, 35, 40);">替换为实际的 Windows 用户名</font>
+6. <font style="color:rgb(31, 35, 40);">输入：</font>C:\Users\你的用户名\.local\bin
+    - <font style="color:rgb(31, 35, 40);">将</font>你的用户名<font style="color:rgb(31, 35, 40);">替换为实际的 Windows 用户名</font>
 7. <font style="color:rgb(31, 35, 40);">依次点击</font>**<font style="color:rgb(31, 35, 40);">“确定”</font>**<font style="color:rgb(31, 35, 40);">关闭所有窗口</font>
 
 #### <font style="color:rgb(31, 35, 40);">方法二：PowerShell命令（快速）</font>
@@ -94,7 +93,7 @@ Location: C:\Users\你的用户名\.local\bin\claude.exe
 
 <font style="color:rgb(31, 35, 40);background-color:rgb(246, 248, 250);">claude --version</font>
 
-<font style="color:rgb(31, 35, 40);">✅</font><font style="color:rgb(31, 35, 40);"> 如果显示版本号（如</font>`<font style="color:rgb(31, 35, 40);background-color:rgba(129, 139, 152, 0.12);">2.0.34</font>`<font style="color:rgb(31, 35, 40);">），说明安装成功！</font>
+<font style="color:rgb(31, 35, 40);">✅</font><font style="color:rgb(31, 35, 40);"> 如果显示版本号（如</font>2.0.34<font style="color:rgb(31, 35, 40);">），说明安装成功！</font>
 
 <font style="color:rgb(31, 35, 40);"></font>
 
@@ -135,29 +134,23 @@ Location: C:\Users\你的用户名\.local\bin\claude.exe
 ##### 配置 <font style="background-color:#FBDE28;">settings.json</font>
 **<font style="color:#DF2A3F;">如果没有settings.json文件，请自行创建</font>****<font style="color:rgb(52, 64, 84);">，不需要时可随意删除，不影响claude使用</font>**
 
-`<font style="color:rgb(52, 64, 84);background-color:rgba(86, 87, 88, 0.04);">windows下路径为: C:/Users/你的用户名/.claude</font>`
+windows下路径为: C:/Users/你的用户名/.claude
 
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://cdn.nlark.com/yuque/0/2026/png/63327424/1772855181489-8d2f5bb7-8f79-438a-a783-01baebbef2ff.png)
 
+```javascript
 {
-
   "env": {
-
-    "ANTHROPIC_AUTH_TOKEN": "<font style="color:#DF2A3F;">sk开头的 api key  这个就是我们注册兑换后，添加的令牌密钥，注意不要多空格</font>",
-
+    "ANTHROPIC_AUTH_TOKEN": ">sk开头的 api key  这个就是我们注册兑换后，添加的令牌密钥，注意不要多空格",
     "ANTHROPIC_BASE_URL": "[https://yunqiaoapi.com](https://yunqiaoapi.com)",
-
     "ANTHROPIC_MODEL": "claude-sonnet-4-6"
-
   },
-
   "includeCoAuthoredBy": false,
-
   "model": "Sonnet"
-
 }
 
+```
 
 
 ### <font style="color:rgb(31, 35, 40);">第六步：启动Claude</font>
