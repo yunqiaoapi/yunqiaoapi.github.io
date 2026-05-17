@@ -1,2 +1,1 @@
-# yunqiaoapi.github.io
-At yunqiaoapi.com, new users can claim a $1 free trial credit upon registration to experience our Claude API proxy service, offering you a barrier-free way to get started.
+<img width="1536" height="1024" alt="8223db00cc8e8b5707eb04618e1c4e1a_free-credits-claudeapi-register--cover-nap7" src="https://github.com/user-attachments/assets/4b728246-7188-49e7-b012-fced36df64db" />
